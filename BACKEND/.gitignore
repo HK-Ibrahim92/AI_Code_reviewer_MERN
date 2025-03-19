@@ -1,0 +1,84 @@
+# General OS generated files #
+##################################
+.DS_Store
+Thumbs.db
+._*
+
+# Logs and temp files #
+########################
+*.log
+*.tmp
+tmp/
+temp/
+/tmp/*
+pids/
+*.seed
+*.pid
+*.lock
+
+# Node.js and npm #
+####################
+node_modules/
+dist/  # Or build/, out/, depending on your build folder name
+build/
+.npm
+.yarn
+yarn-error.log
+npm-debug.log*
+package-lock.json #Only if you are using yarn
+yarn.lock #Only if you are using npm
+lerna-debug.log*
+
+# Environment Variables #
+##########################
+.env
+.env.*
+!/.env.example  # Important:  Keep your example file!
+
+# Dependency directories (if you use them locally) #
+####################################################
+jspm_packages/
+web_modules/
+
+# IDE and Editor Specific #
+###########################
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp # vim swap
+*.swo # vim swap
+*~ # backup files
+*.bak
+
+# Debug & Coverage Data #
+#########################
+/coverage
+/debug
+.nyc_output
+.rpt
+
+# Compiled Files #
+###################
+*.class
+*.pyc  #If you're mixing Python with your JS
+
+# Optional: Docker #
+#####################
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile*
+
+# Ignore bundled files
+########################
+/bundle
+
+# OS generated files
+######################
+.DS_Store
+._*
+
+# End #
+#######
